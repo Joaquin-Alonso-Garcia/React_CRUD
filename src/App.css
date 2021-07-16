@@ -1,0 +1,55 @@
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.label {
+    font-size: 1.5rem;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 3rem;
+  gap: 1rem;
+}
+
+.section-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.inner {
+  text-align: left;
+  padding: 0.5rem;
+}
